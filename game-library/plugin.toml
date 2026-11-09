@@ -1,0 +1,16 @@
+# Your Steam and Epic Games (found automatically) and the games you add
+# yourself, like a modded copy, in one list with their pictures: play, sort,
+# see hours played (per game and in total), rename and update from here. Click
+# the tile to open it; drop a game's .exe or shortcut on the page, or press +,
+# to add one. Python, standard library only. Network: only Steam's and Epic's
+# own image servers and Steam's store, for game pictures (and only for games
+# without a picture already on this PC).
+id = "game-library"
+name = "Game Library"
+icon = "game-controller"
+size = "small"
+run = ["python", "main.py"]
+page_size = [640, 480]
+accepts_files = true
+description = "Your Steam and Epic games and the ones you add yourself, with pictures, hours played and sorting: play, rename and update from one library."
+version = "1.2.0"
